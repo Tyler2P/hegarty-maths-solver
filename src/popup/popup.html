@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Hegarty Maths Cheats</title>
+    <style>
+        /* Reset the CSS */
+        * {
+            box-sizing: border-box;
+            padding: 0;
+            margin: 0;
+        }
+        /* Main Styles */
+        body {
+            height: max-content;
+            background-color: rgb(54, 57, 63);
+            width: 360px;
+            height: 300px;
+        }
+        .ns {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+        }
+        /* Header styles */
+        header {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            border-bottom: solid 2px rgb(167, 178, 179);
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 20px;
+        }
+        header h1 {
+            text-align: center;
+            font-size: 15px;
+        }
+        header p {
+            text-align: center;
+            font-size: 12px;
+        }
+        header h1, header p {
+            color: rgb(255, 255, 255);
+        }
+        /* Main Page Styles */
+        .page {
+            -webkit-touch-callout: none;
+            -webkit-user-select: none;
+            -khtml-user-select: none;
+            -moz-user-select: none;
+            -ms-user-select: none;
+            user-select: none;
+            width: 100%;
+        }
+        /* The error wrapper */
+        .page .error-wrapper {
+            display: none;
+            padding-top: 10px;
+            padding-bottom: 20px;
+        }
+        .page .error-wrapper.open {
+            display: block;
+        }
+        .page .error-wrapper .title {
+            text-align: center;
+            font-size: 3em;
+        }
+        .page .error-wrapper .description {
+            text-align: center;
+            font-size: 1.2em;
+        }
+        /* Button styles */
+        .page .button-wrapper {
+            display: flex;
+            flex-direction: row;
+            align-content: center;
+            justify-content: center;
+            margin: auto;
+        }
+        .page .button {
+            cursor: pointer;
+            text-align: center;
+            background-color: rgb(213, 214, 215);
+            color: rgb(48, 48, 49);
+            width: 80px;
+            border-radius: 10px;
+            padding: 5px;
+        }
+        .page .button:not(:first-child) {
+            margin-left: 5px;
+        }
+        @media (prefers-color-scheme: light) {
+            body {
+                background-color: rgb(213, 214, 215);
+            }
+            header {
+                border-bottom: solid 2px rgb(54, 57, 63);
+            }
+            header h1, header p {
+                color: rgb(48, 48, 49);
+            }
+            .page .button {
+                background-color: rgb(54, 57, 63);
+                color: rgb(255, 255, 255);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Hegarty Maths Cheats</h1>
+        <p>By Tyler Pearson</p>
+    </header>
+    <div class="page">
+        <div class="content">
+            <div class="error-wrapper">
+                <div class="title">Error Title</div>
+                <div class="description">Error  Description</div>
+            </div>
+        </div>
+        <div class="button-wrapper">
+            <div class="button" id="find-solution">Find solution</div>
+            <div class="button" id="open-settings">Settings</div>
+        </div>
+    </div>
+</body>
+<script src="popup.js"></script>
+</html>
