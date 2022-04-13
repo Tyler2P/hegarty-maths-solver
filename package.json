@@ -1,0 +1,14 @@
+{
+  "name": "hegarty-maths-solver",
+  "version": "1.0.0",
+  "description": "A simple google chrome extension that provides an answer to any question in hegarty maths",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Tyler Pearson",
+  "license": "ISC",
+  "dependencies": {
+    "math.js": "^1.1.46"
+  }
+}
